@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Environments
+venv/
+env/
+nn/
+*.venv/
+*.env/
+
+# PyTorch / model checkpoints
+*.pth
+*.pt
+*.ckpt
+checkpoints/
+
+# Data
+data/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# IDE / editor
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
