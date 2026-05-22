@@ -68,7 +68,7 @@ def run_experiment(
     
     torch.save(
         model.state_dict(),
-        "checkpoints/mnist_01.pth"
+        f"checkpoints/{optimizer_name}.pth"
     )
 
 
