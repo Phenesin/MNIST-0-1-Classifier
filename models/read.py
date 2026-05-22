@@ -8,7 +8,7 @@ DEVICE = torch.device(
 
 model = BinaryClassifier().to(DEVICE)
 
-model.load_state_dict(torch.load("01_classifier/checkpoints/mnist_01.pth"))
+model.load_state_dict(torch.load("01_classifier/checkpoints/adam.pth"))
 
 for name, param in model.named_parameters():
     print(name, param.shape)
