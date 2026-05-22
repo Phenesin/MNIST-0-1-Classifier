@@ -21,6 +21,6 @@ model.eval()
 def predict(tensor):
     with torch.no_grad():
         output = model(tensor)
-        probability_0 = output.item()
-        probability_1 = 1 - probability_0
+        probability_1 = output.item()
+        probability_0 = 1 - probability_1
     return probability_0, probability_1

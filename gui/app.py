@@ -10,7 +10,7 @@ from .preprocess import (preprocess_image)
 root = tk.Tk()
 root.title("MNIST 0 vs 1 Classifier")
 
-root.geometry("500x750")
+root.geometry("500x800")
 root.configure(bg = "#1e1e1e")
 
 

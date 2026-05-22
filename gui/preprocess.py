@@ -21,11 +21,14 @@ def preprocess_image(image, device):
         new_height = int((height / width) *20)
     else:
         new_height = 20
-        new_width = int((height / width) *20)
+        new_width = int((width / height) *20)
+
+    cropped_image = cropped_image.resize((new_width, new_height))
 
     final_image = Image.new("L", (28, 28), 0)
     paste_x = (28 - new_width) // 2
     paste_y = (28 - new_height) // 2
+    final_image.paste(cropped_image,(paste_x, paste_y))
     transform = transforms.ToTensor()
     tensor = transform(final_image)
     tensor = tensor.view(1, 784)
