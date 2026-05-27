@@ -43,3 +43,4 @@ In order to see how well does the model classifies a drawn digit simply run the 
     python -m gui.app
 ```
 # Author
+Phenesin (https://github.com/Phenesin)
