@@ -10,8 +10,7 @@ A simple classification of hand drawn 0s and 1s using the MNIST dataset, impleme
 ```
 
 # Configuration
-It has 3 different gradient descent algorithms, Stochastic Gradient Descent (SGD), Momentum Based Gradient Descent (momentum) and, Adam.
-
+It has 3 different gradient descent algorithms, Stochastic Gradient Descent (SGD), Momentum Based Gradient Descent (momentum) and, Adam.  
 In the train.py all the three algortihms have been written just remove it as it is commented and you are ready to use it!
 
 # Project structure
